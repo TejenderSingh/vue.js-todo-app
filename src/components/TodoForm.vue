@@ -62,7 +62,7 @@ section {
     flex-direction: column;
     align-items: center;
   }
-  .mt {
+  .control {
     margin-top: 1rem;
   }
 }

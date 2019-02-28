@@ -5,7 +5,7 @@
         <input type="checkbox" v-model="todo.completed">
         <p :class="{complete: todo.completed}">{{todo.title}}</p>
       </div>
-      <button class="delete is-medium" @click="$emit('detodol-', todo.id)"></button>
+      <button class="delete is-medium" @click="$emit('del-todo', todo.id)"></button>
     </div>
   </section>
 </template>
